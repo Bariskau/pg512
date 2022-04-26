@@ -1,13 +1,13 @@
-#Postgresql docker container with 512 dimensions and postgis.
+# Postgresql docker container with 512 dimensions and postgis.
 
-##Build and start with docker-compose
+## Build and start with docker-compose
 `cp .env.example .env`
 
 `docker-compose build db`
 
 `docker-compose up -d`
 
-##Build and start with docker
+## Build and start with docker
 `cd docker/db`
 
 `docker build –t pg512:latest .`
